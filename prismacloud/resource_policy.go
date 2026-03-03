@@ -112,6 +112,7 @@ func resourcePolicy() *schema.Resource {
 						account.TypeAzure,
 						account.TypeGcp,
 						account.TypeAlibaba,
+						account.TypeOci,
 						"all",
 					},
 					false,

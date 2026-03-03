@@ -26,6 +26,7 @@ func dataSourceCloudAccount() *schema.Resource {
 						account.TypeAzure,
 						account.TypeGcp,
 						account.TypeAlibaba,
+						account.TypeOci,
 					},
 					false,
 				),

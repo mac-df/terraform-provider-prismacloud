@@ -12,4 +12,5 @@ const (
 	TypeAzure   = "azure"
 	TypeGcp     = "gcp"
 	TypeAlibaba = "alibaba_cloud"
+	TypeOci     = "oci"
 )
